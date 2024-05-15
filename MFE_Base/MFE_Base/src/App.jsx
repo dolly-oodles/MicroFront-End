@@ -4,8 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.scss";
 import Register from "../../../register/register/src/Register";
 import Login from "../../../login/login/src/Login";
-// import Container from "../../../dashboard/src/Components/Container";
-import {App as Dashboard} from "../../../dashboard/src/App";
+import { Dashboard } from "../../../dashboard/src/App";
 
 const root = ReactDOM.createRoot(document.getElementById("app"));
 

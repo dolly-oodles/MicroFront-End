@@ -1,0 +1,36 @@
+
+.nav{
+    width: 100%;
+    padding: 2px;
+   background-color: white;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_title{
+    padding-left:2rem;
+}
+.main-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.main-right .main_search input{
+    padding: 7px;
+    border:none;
+    outline: none;
+    background-color: #f2f2f29f;
+    border-radius: 6px;
+}
+.main-right .main-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+
